@@ -1,0 +1,13 @@
+{
+  "prefixCounters": {
+    "TC-OBJC": 6
+  },
+  "testKeyToId": {
+    "cypress\\e2e\\sauce_demo_obj1.cy.ts::Object 1 > should sort items from cheapest to most expensive when filter is selected": "TC-OBJC-001",
+    "cypress\\e2e\\sauce_demo_obj1.cy.ts::Object 1 > should successfully add and remove items from cart when user click the Add to cart and remove buttons": "TC-OBJC-002",
+    "cypress\\e2e\\sauce_demo_obj3.cy.ts::Objective 3 > should filter by low to high prices": "TC-OBJC-003",
+    "cypress\\e2e\\sauce_demo_obj3.cy.ts::Objective 3 > should remove items added to cart when the remove button is clicked": "TC-OBJC-004",
+    "cypress\\e2e\\source_demo_obj2.cy.ts::Objective 2 > should login users successfully when a valid email and password is used": "TC-OBJC-005",
+    "cypress\\e2e\\source_demo_obj2.cy.ts::Objective 2 > should add any item to cart when user clicks the Add to cart button": "TC-OBJC-006"
+  }
+}

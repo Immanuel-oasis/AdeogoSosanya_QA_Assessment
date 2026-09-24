@@ -1,0 +1,167 @@
+[
+  {
+    "suite": "Object 1",
+    "testKey": "cypress\\e2e\\sauce_demo_obj1.cy.ts::Object 1 > should sort items from cheapest to most expensive when filter is selected",
+    "description": "verifies that price filter can successfully filters from cheapest to most expensive",
+    "preconditions": [
+      "user signed in as standard_user"
+    ],
+    "procedure": [
+      "Navigate to the Saucedemo website",
+      "enter username",
+      "enter password",
+      "click the submit button",
+      "get all the prices before filter",
+      "select the \"price (low to hight) filter",
+      "get all the prices after filter"
+    ],
+    "testData": "username: standard_user, password: secret_sauce",
+    "expectedResult": "should sort items from cheapest to most expensive when filter is selected",
+    "actualResult": "should sort items from cheapest to most expensive when filter is selected",
+    "status": "Passed",
+    "skippedProcedure": [],
+    "specRelativePath": "cypress\\e2e\\sauce_demo_obj1.cy.ts",
+    "titlePath": [
+      "Object 1",
+      "should sort items from cheapest to most expensive when filter is selected"
+    ],
+    "id": "TC-OBJC-001"
+  },
+  {
+    "suite": "Object 1",
+    "testKey": "cypress\\e2e\\sauce_demo_obj1.cy.ts::Object 1 > should successfully add and remove items from cart when user click the Add to cart and remove buttons",
+    "description": "verifies that the number on the cart item accurately displays cart count",
+    "preconditions": [
+      "User signed in as standard_user"
+    ],
+    "procedure": [
+      "Navigate to the Saucedemo website",
+      "enter username",
+      "enter password",
+      "click the submit button",
+      "add sauce labs backpack to cart ",
+      "click the back to product button",
+      "add Sauce Labs Onesie to cart",
+      "click the remove button",
+      "check to make sure the cart contains only one item"
+    ],
+    "testData": "username: standard_user, password: secret_sauce",
+    "expectedResult": "should successfully add and remove items from cart when user click the Add to cart and remove buttons",
+    "actualResult": "should successfully add and remove items from cart when user click the Add to cart and remove buttons",
+    "status": "Passed",
+    "skippedProcedure": [],
+    "specRelativePath": "cypress\\e2e\\sauce_demo_obj1.cy.ts",
+    "titlePath": [
+      "Object 1",
+      "should successfully add and remove items from cart when user click the Add to cart and remove buttons"
+    ],
+    "id": "TC-OBJC-002"
+  },
+  {
+    "suite": "Objective 3",
+    "testKey": "cypress\\e2e\\sauce_demo_obj3.cy.ts::Objective 3 > should filter by low to high prices",
+    "description": "verifies that the price filter accurately filters items by prices from low to high",
+    "preconditions": [
+      "user signed in as problem_user"
+    ],
+    "procedure": [
+      "Navigate to the Saucedemo website",
+      "enter username",
+      "enter password",
+      "click the submit button",
+      "get all the prices before filter",
+      "select the \"price (low to hight) filter",
+      "get all the prices after filter"
+    ],
+    "testData": "username: problem_user, password: secret_sauce",
+    "expectedResult": "should filter by low to high prices",
+    "actualResult": "expected [ Array(6) ] to deeply equal [ Array(6) ]",
+    "status": "Failed",
+    "skippedProcedure": [],
+    "specRelativePath": "cypress\\e2e\\sauce_demo_obj3.cy.ts",
+    "titlePath": [
+      "Objective 3",
+      "should filter by low to high prices"
+    ],
+    "id": "TC-OBJC-003"
+  },
+  {
+    "suite": "Objective 3",
+    "testKey": "cypress\\e2e\\sauce_demo_obj3.cy.ts::Objective 3 > should remove items added to cart when the remove button is clicked",
+    "description": "verifies that user can add and remove items from cart",
+    "preconditions": [
+      "user signed in as problem_user"
+    ],
+    "procedure": [
+      "Navigate to the Saucedemo website",
+      "enter username",
+      "enter password",
+      "click the submit button",
+      "find the sauce bag item and add to cart",
+      "verify that the amount of item in cart is 1",
+      "click on the remove button on the sauce bag card",
+      "verify that the amount of item in cart is 0"
+    ],
+    "testData": "username: problem_user, password: secret_sauce",
+    "expectedResult": "should remove items added to cart when the remove button is clicked",
+    "actualResult": "Timed out retrying after 4000ms: Expected to find content: '0' within the selector: '.shopping_cart_badge' but never did.",
+    "status": "Failed",
+    "skippedProcedure": [],
+    "specRelativePath": "cypress\\e2e\\sauce_demo_obj3.cy.ts",
+    "titlePath": [
+      "Objective 3",
+      "should remove items added to cart when the remove button is clicked"
+    ],
+    "id": "TC-OBJC-004"
+  },
+  {
+    "suite": "Objective 2",
+    "testKey": "cypress\\e2e\\source_demo_obj2.cy.ts::Objective 2 > should login users successfully when a valid email and password is used",
+    "description": "verifies that users can successfully access the platform",
+    "preconditions": [],
+    "procedure": [
+      "Navigate to the Saucedemo website",
+      "enter username",
+      "enter password",
+      "click the submit button",
+      "verify that user is routed to inventory page on success"
+    ],
+    "testData": "username: locked_out_user, password: secret_sauce",
+    "expectedResult": "should login users successfully when a valid email and password is used",
+    "actualResult": "Timed out retrying after 4000ms: expected 'https://www.saucedemo.com/' to include 'inventory.'",
+    "status": "Failed",
+    "skippedProcedure": [],
+    "specRelativePath": "cypress\\e2e\\source_demo_obj2.cy.ts",
+    "titlePath": [
+      "Objective 2",
+      "should login users successfully when a valid email and password is used"
+    ],
+    "id": "TC-OBJC-005"
+  },
+  {
+    "suite": "Objective 2",
+    "testKey": "cypress\\e2e\\source_demo_obj2.cy.ts::Objective 2 > should add any item to cart when user clicks the Add to cart button",
+    "description": "verifies that the application meets its functional requirement of adding items to cart",
+    "preconditions": [
+      "user signed in as problem_user"
+    ],
+    "procedure": [
+      "Navigate to the Saucedemo website",
+      "enter username",
+      "enter password",
+      "click the submit button",
+      "click all the add to cart button"
+    ],
+    "testData": "username: problem_user, password: secret_sauce",
+    "expectedResult": "should add any item to cart when user clicks the Add to cart button",
+    "actualResult": "Timed out retrying after 4000ms: Expected to find element: `#add-to-cart`, but never found it.",
+    "status": "Failed",
+    "skippedProcedure": [],
+    "specRelativePath": "cypress\\e2e\\source_demo_obj2.cy.ts",
+    "titlePath": [
+      "Objective 2",
+      "should add any item to cart when user clicks the Add to cart button"
+    ],
+    "id": "TC-OBJC-006"
+  }
+]
