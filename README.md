@@ -1,7 +1,7 @@
 # QA ASSESSMENT
 ## Manual Testing
 Below is the link to the doc for Manual testing section
-[Vist Test Docs]{https://docs.google.com/spreadsheets/d/1FaXLileIh4pKSyx40DEIuvQtOcwWMZqiblRUHKZlJDI/edit?gid=0#gid=0)
+[Vist Test Docs](https://docs.google.com/spreadsheets/d/1FaXLileIh4pKSyx40DEIuvQtOcwWMZqiblRUHKZlJDI/edit?gid=0#gid=0)
 
 
 ## Cypress Automation Testing
