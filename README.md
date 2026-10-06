@@ -1,6 +1,6 @@
 # QA Assessment
 
-Welcome to the QA Assessment repository. This project contains both **manual test cases** and **automated end-to-end tests** built with [Cypress](https://www.cypress.io/).
+This project is the solution to the assessment given, as stated, it contains **manual test cases** and **automated end-to-end tests** which was built with [Cypress](https://www.cypress.io/).
 
 ---
 
